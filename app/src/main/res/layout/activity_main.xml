@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ааааа"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:background="@color/white"
+    android:foregroundTint="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:allowUndo="false"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:rotationX="360"
+        android:text="Викторина"
+        android:textColor="@color/purple_500"
+        android:textSize="48sp"
+        tools:text="Викторина" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="275dp"
+        android:layout_height="332dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Проверь свой Kotlin! 🚀 Пройди блиц-опрос из 5 базовых вопросов и узнай, насколько хорошо ты помнишь основы синтаксиса самого популярного языка для Android-разработки. Нажми «Начать» и докажи, что ты не джун!"
+        android:textColor="@color/teal_700"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:rotationX="18"
+        android:text="Начать"
+        android:textColor="@color/purple_500"
+        android:textSize="34sp" />
+
+</LinearLayout>
